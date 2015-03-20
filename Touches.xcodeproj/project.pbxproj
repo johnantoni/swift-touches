@@ -13,6 +13,7 @@
 		EA8D4BD41ABB9C5400D8714A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8D4BD31ABB9C5400D8714A /* Images.xcassets */; };
 		EA8D4BD71ABB9C5400D8714A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8D4BD51ABB9C5400D8714A /* LaunchScreen.xib */; };
 		EA8D4BE31ABB9C5400D8714A /* TouchesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D4BE21ABB9C5400D8714A /* TouchesTests.swift */; };
+		EA8D4BED1ABB9C7400D8714A /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8D4BEC1ABB9C7400D8714A /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		EA8D4BDC1ABB9C5400D8714A /* TouchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA8D4BE11ABB9C5400D8714A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA8D4BE21ABB9C5400D8714A /* TouchesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchesTests.swift; sourceTree = "<group>"; };
+		EA8D4BEC1ABB9C7400D8714A /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				EA8D4BCC1ABB9C5400D8714A /* AppDelegate.swift */,
 				EA8D4BCE1ABB9C5400D8714A /* ViewController.swift */,
 				EA8D4BD01ABB9C5400D8714A /* Main.storyboard */,
+				EA8D4BEC1ABB9C7400D8714A /* MyView.swift */,
 				EA8D4BD31ABB9C5400D8714A /* Images.xcassets */,
 				EA8D4BD51ABB9C5400D8714A /* LaunchScreen.xib */,
 				EA8D4BCA1ABB9C5400D8714A /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA8D4BED1ABB9C7400D8714A /* MyView.swift in Sources */,
 				EA8D4BCF1ABB9C5400D8714A /* ViewController.swift in Sources */,
 				EA8D4BCD1ABB9C5400D8714A /* AppDelegate.swift in Sources */,
 			);
